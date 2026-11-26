@@ -1,30 +1,18 @@
-### IntelliJ IDEA ###
+
+# ไฟล์คอมไพล์
+*.class
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
+target/
+build/
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# ไฟล์ของ IntelliJ IDEA
+.idea/
+*.iml
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
+# ไฟล์ของระบบปฏิบัติการ
 .DS_Store
+Thumbs.db
+
+# ไฟล์ลับและข้อมูลเฉพาะเครื่อง
+.env
+*.log
